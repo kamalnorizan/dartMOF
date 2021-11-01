@@ -33,6 +33,8 @@ class Car{
     print(cc);
     print(price);
     for(var i=0; i < owners.length; i++){
+      var count = i+1;
+      print('--------------Owner '+count.toString()+' ---------------');
       owners[i].printOwner();
     }
     print('==========================');
